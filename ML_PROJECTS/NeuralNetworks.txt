@@ -1,0 +1,35 @@
+y = w1.x1 + w2.x2 + w3.x3 + b
+1 issue is that most data in the world is not Linear.
+
+Neural Networks in terms of Linear Regression:
+ A neural network builds upon this concept by introducing non-linearity and layers. Here's how:
+ Multiple Neurons:
+  Instead of a single linear equation, a neural network uses multiple linear equations, each representing a neuron.
+ Each neuron computes:
+ 𝑧=𝑤⋅𝑥 + 𝑏
+ Activation Function:
+  After computing the linear combination (𝑧), an activation function is applied to introduce non-linearity:𝑎 =
+ActivationFunction(𝑧)
+a=ActivationFunction(z)
+Common activation functions: ReLU, sigmoid, tanh.
+Layers:
+A neural network consists of layers of neurons:
+Input Layer: Takes raw data as input.
+Hidden Layers: Add intermediate computations, enabling the model to learn complex patterns.
+Output Layer: Produces the final prediction.
+Each layer applies linear combinations followed by activation functions.
+Multiple Outputs:
+
+A network can model relationships between inputs and multiple outputs simultaneously.
+Optimization:
+
+Neural networks use advanced optimization techniques (e.g., gradient descent) to adjust weights and biases, just like linear regression but extended across multiple layers and neurons.
+
+Sigmoid Function:
+  It maps any input value to a value between 0 and 1, making it especially useful in binary classification tasks.
+  The sigmoid function is defined as: 𝜎(𝑥) = 1/1+𝑒^-x
+  wherein:
+x: The input to the function (can be any real number).
+e: Euler's number (≈2.718).
+
+Gradient Descent
